@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE project>
+<ivy-module version="2.0">
+    <info organisation="test" module="test2"/>
+    <configurations>
+        <conf name="sources"  description="Source jars"/>
+        <conf name="binaries" description="binary jars"/>
+    </configurations>
+    <dependencies>
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.7.24"/>
+        <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.24"/>
+        
+        <dependency org="mysql" name="mysql-connector-java" rev="5.1.6"/>
+
+	    <dependency org="org.hibernate.javax.persistence" name="hibernate-jpa-2.1-api" rev="1.0.0.Final"/>
+	    <dependency org="org.hibernate" name="hibernate-entitymanager" rev="5.2.8.Final"/>
+	    <dependency org="org.hibernate" name="hibernate-jpamodelgen" rev="5.2.8.Final"/> 
+	    <dependency org="org.hibernate.common" name="hibernate-commons-annotations" rev="5.0.1.Final"/>
+		<dependency org="org.hibernate" name="ejb3-persistence" rev="3.3.2.Beta1"/>
+		
+		<dependency org="commons-io" name="commons-io" rev="2.6"/>
+    </dependencies> 
+</ivy-module>                
